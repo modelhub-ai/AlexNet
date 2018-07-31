@@ -1,0 +1,9 @@
+{
+  "docker_id": "modelhub/main_caffe2:0.3.0",
+  "external_contrib_files": [
+    {
+      "src_url": "https://www.dropbox.com/s/jxf2xwpzjppgd0c/model.onnx?dl=0",
+      "dest_file_path": "/contrib_src/model/model.onnx"
+    }
+  ]
+}
