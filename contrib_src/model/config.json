@@ -1,7 +1,7 @@
 {
   "id": "6c7d087b-ad67-4e36-8210-28b445d4d11b",
   "meta": {
-    "name": "AlexNet",
+    "name": "alex-net",
     "application_area": "ImageNet",
     "task": "Classification",
     "task_extended": "ImageNet classification",
@@ -9,16 +9,14 @@
     "data_source": "http://www.image-net.org/challenges/LSVRC/2012/"
   },
   "publication": {
-    "title":
-      "ImageNet Classification with Deep Convolutional Neural Networks",
+    "title": "ImageNet Classification with Deep Convolutional Neural Networks",
     "source": "Advances in Neural Information Processing Systems",
     "year": 2012,
-    "authors":
-      "Alex Krizhevsky, Ilya Sutskever, Geoffrey E. Hinton",
-    "email": "",
+    "authors": "Alex Krizhevsky, Ilya Sutskever, Geoffrey E. Hinton",
     "abstract":
       "We trained a large, deep convolutional neural network to classify the 1.2 million high-resolution images in the ImageNet LSVRC-2010 contest into the 1000 dif-ferent classes. On the test data, we achieved top-1 and top-5 error rates of 37.5% and 17.0% which is considerably better than the previous state-of-the-art. The neural network, which has 60 million parameters and 650,000 neurons, consists of five convolutional layers, some of which are followed by max-pooling layers, and three fully-connected layers with a final 1000-way softmax. To make train-ing faster, we used non-saturating neurons and a very efficient GPU implemen-tation of the convolution operation. To reduce overfitting in the fully-connected layers we employed a recently-developed regularization method called 'dropout' that proved to be very effective. We also entered a variant of this model in the ILSVRC-2012 competition and achieved a winning top-5 test error rate of 15.3%, compared to 26.2% achieved by the second-best entry.",
-    "url": "http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf",
+    "url":
+      "http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf",
     "google_scholar":
       "https://scholar.google.com/scholar?cluster=2071317309766942398&hl=de&as_sdt=0,22",
     "bibtex":
