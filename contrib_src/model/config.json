@@ -1,7 +1,7 @@
 {
   "id": "6c7d087b-ad67-4e36-8210-28b445d4d11b",
   "meta": {
-    "name": "alex-net",
+    "name": "alexnet",
     "application_area": "ImageNet",
     "task": "Classification",
     "task_extended": "ImageNet classification",
