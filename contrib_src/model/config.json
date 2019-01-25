@@ -28,6 +28,7 @@
       "AlexNet is the name of a convolutional neural network for classification, which competed in the ImageNet Large Scale Visual Recognition Challenge in 2012.",
     "architecture": "Convolutional Neural Network (CNN)",
     "learning_type": "Supervised learning",
+    "backend": ["caffe2", "onnx"],
     "io": {
       "input": {
         "format": ["image/png", "image/jpg", "image/jpeg"],
@@ -47,10 +48,12 @@
       "output": [
         {
           "name": "probabilities",
-          "type": "label_list"
+          "type": "label_list",
+          "description": "Probabilities of the 1000 classes in the ImageNet dataset."
         }
       ]
     }
   },
-  "allow_user_input": true
+  "allow_user_test": false,
+  "allow_sample_demo": false
 }
