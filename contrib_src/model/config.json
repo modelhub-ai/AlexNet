@@ -18,12 +18,10 @@
     "google_scholar": "https://scholar.google.com/scholar?cites=2071317309766942398&as_sdt=40000005&sciodt=0,22&hl=en",
     "bibtex": "@incollection{NIPS2012_4824, title = {ImageNet Classification with Deep Convolutional Neural Networks}, author = {Krizhevsky, Alex and Sutskever, Ilya and Hinton, Geoffrey E}, booktitle = {Advances in Neural Information Processing Systems 25}, editor = {F. Pereira and C. J. C. Burges and L. Bottou and K. Q. Weinberger}, pages = {1097--1105}, year = {2012}, publisher = {Curran Associates, Inc.}, url = {http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf} }"
   },
-  "viewer": "netron",
   "model": {
     "description": "AlexNet is the name of a convolutional neural network for classification, which competed in the ImageNet Large Scale Visual Recognition Challenge in 2012.",
     "architecture": "Convolutional Neural Network (CNN)",
     "learning_type": "Supervised learning",
-    "backend": ["caffe2", "onnx"],
     "format": ".onnx",
     "io": {
       "input": {
