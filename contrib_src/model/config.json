@@ -20,6 +20,7 @@
   },
   "model": {
     "description": "AlexNet is the name of a convolutional neural network for classification, which competed in the ImageNet Large Scale Visual Recognition Challenge in 2012.",
+    "provenance": "https://github.com/onnx/models/tree/master/bvlc_alexnet",
     "architecture": "Convolutional Neural Network (CNN)",
     "learning_type": "Supervised learning",
     "format": ".onnx",
